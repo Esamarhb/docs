@@ -1,0 +1,238 @@
+[
+{
+    "category": "system_os",
+    "description": "Windows 7 مع Office 2019 - نظام مدمج مع الأوفيس",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 7 with Office 2019",
+    "publishedAt": "2025-09-01T06:55:56Z",
+    "requirements": "RAM 2GB, مساحة تخزين 20GB, معالج 1GHz",
+    "size": "4.42GB",
+    "version": "SP1",
+    "versionCode": 1,
+    "thumbnailUrl": "",
+    "localImageName": "win7of19"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 7 Lite x86_x64 - نسخة خفيفة من ويندوز 7",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 7 Lite x86_x64",
+    "publishedAt": "2025-06-24T05:56:45Z",
+    "requirements": "RAM 1GB, مساحة تخزين 16GB, معالج 1GHz",
+    "size": "861.8MB",
+    "version": "Lite",
+    "versionCode": 7,
+    "thumbnailUrl": "",
+    "localImageName": "win7lite"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 7 X-Lite - أخف ويندوز 7 معدل باخر التحديثات",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 7 X-Lite",
+    "publishedAt": "2025-06-24T05:47:25Z",
+    "requirements": "RAM 1GB, مساحة تخزين 16GB, معالج 1GHz",
+    "size": "809.4MB",
+    "version": "X-Lite",
+    "versionCode": 7,
+    "thumbnailUrl": "",
+    "localImageName": "win7lite"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 7 Ultimate SP1 Multilingual Preactivated May 2024 بجميع اللغات",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 7 Ultimate SP1 Multilingual",
+    "publishedAt": "2025-09-01T06:45:37Z",
+    "requirements": "RAM 2GB, مساحة تخزين 20GB, معالج 1GHz",
+    "size": "4.7GB",
+    "version": "SP1",
+    "versionCode": 1,
+    "thumbnailUrl": "",
+    "localImageName": "win7"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 7 Lite 2023 - نسخة معدلة 64-bit",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 7 Lite 2023",
+    "publishedAt": "2025-09-01T06:45:56Z",
+    "requirements": "RAM 1GB, مساحة تخزين 16GB, معالج 1GHz",
+    "size": "1.29GB",
+    "version": "2023",
+    "versionCode": 2023,
+    "thumbnailUrl": "",
+    "localImageName": "win7lite"
+  },
+  
+  
+  
+  
+    {
+    "category": "system_os",
+    "description": "Windows 8.1 Pro Build 9600 Multilingual Preactivated December 2022",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 8.1 Pro 2022",
+    "publishedAt": "2024-10-24T21:08:05Z",
+    "requirements": "RAM 2GB, مساحة تخزين 20GB, معالج 1GHz",
+    "size": "3.6GB",
+    "version": "9600",
+    "versionCode": 9600,
+    "thumbnailUrl": "",
+    "localImageName": "w8"
+  },
+  
+  
+  
+  
+  
+  
+    {
+    "category": "system_os",
+    "description": "Windows 10 Pro Compact - نسخة معدلة للألعاب 4K UHD",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 10 Pro Compact",
+    "publishedAt": "2024-02-26T08:06:47Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "2.93GB",
+    "version": "22H2",
+    "versionCode": 22,
+    "thumbnailUrl": "",
+    "localImageName": "w10"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 10 Pro Lite Atlas - أخف نسخة ويندوز 10 برو",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 10 Pro Lite Atlas",
+    "publishedAt": "2023-12-23T06:29:23Z",
+    "requirements": "RAM 2GB, مساحة تخزين 32GB, معالج 1GHz",
+    "size": "1.61GB",
+    "version": "21H2",
+    "versionCode": 21,
+    "thumbnailUrl": "",
+    "localImageName": "win10lite"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 10 22H2 English x64 - يمكن إضافة اللغة العربية",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 10 22H2 English x64",
+    "publishedAt": "2025-02-02T08:49:28Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "5.7GB",
+    "version": "22H2",
+    "versionCode": 22,
+    "thumbnailUrl": "",
+    "localImageName": "w10"
+  },
+   {
+    "category": "system_os",
+    "description": "windows 10 ويندوز 10 LTSC X64 الانجليزية العربي",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "windows 10 enterprise ltsc 2021 19044",
+    "publishedAt": "2025-02-02T08:49:28Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "6.40MB",
+    "version": "22H2 2021",
+    "versionCode": 19044,
+    "thumbnailUrl": "",
+    "localImageName": "win10ltsc"
+  },
+   {
+    "category": "system_os",
+    "description": "windows 10 ويندوز ١٠ LTSC x64 الانجليزية ",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "windows 10 version 22h2",
+    "publishedAt": "2025-02-02T08:49:28Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "4.58MB",
+    "version": "22H2",
+    "versionCode": 19045,
+    "thumbnailUrl": "",
+    "localImageName": "win10"
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  {
+    "category": "system_os",
+    "description": "Windows 11 Micro 24H2 - أخف نسخة ويندوز 11 للأجهزة القديمة والحديثة",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 11 Micro 24H2",
+    "publishedAt": "2025-01-29T11:08:29Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "1.52GB",
+    "version": "24H2",
+    "versionCode": 24,
+    "thumbnailUrl": "",
+    "localImageName": "lite11"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 11 مع Office 2019 Pro Plus - نظام مدمج مع الأوفيس",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 11 with Office 2019",
+    "publishedAt": "2024-10-24T21:09:27Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "7.8GB",
+    "version": "23H2",
+    "versionCode": 23,
+    "thumbnailUrl": "",
+    "localImageName": "win11ofic19"
+  },
+
+
+  {
+    "category": "system_os",
+    "description": "Windows 11 Pro 23H2 Pre-activated",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 11 Pro 23H2",
+    "publishedAt": "2025-09-01T06:52:05Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "7.47GB",
+    "version": "23H2",
+    "versionCode": 23,
+    "thumbnailUrl": "",
+    "localImageName": "win11"
+  },
+  {
+    "category": "system_os",
+    "description": "Windows 11 Pro 22H2 مع Office 2021 - نظام مدمج مع الأوفيس",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows 11 Pro with Office 2021",
+    "publishedAt": "2025-09-01T06:55:12Z",
+    "requirements": "RAM 4GB, مساحة تخزين 64GB, معالج 1GHz",
+    "size": "4.3GB",
+    "version": "22H2",
+    "versionCode": 22,
+    "thumbnailUrl": "",
+    "localImageName": "win11ofic2021"
+  },
+  
+  
+  
+  
+  {
+    "category": "system_os",
+    "description": "Windows XP Professional Service Pack 3 - للإصدار 32 بت",
+    "downloadUrl": "https://t.me/win_app_exe",
+    "name": "Windows XP Professional SP3",
+    "publishedAt": "2025-09-01T06:57:35Z",
+    "requirements": "RAM 512MB, مساحة تخزين 1.5GB, معالج 233MHz",
+    "size": "589.1MB",
+    "version": "SP3",
+    "versionCode": 3,
+    "thumbnailUrl": "",
+    "localImageName": "winxp"
+  }
+]
