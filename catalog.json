@@ -39,6 +39,18 @@
       "file_type": "docx",
       "size_mb": 0.19,
       "updated_at": "2026-11-15"
+    },
+    {
+      "id": "doc-0002",
+      "title": "مقرر أساسيات الحاسوب ونظام Windows (3)",
+      "category": "teachers",
+      "description": "",
+      "file_name": "مقرر_أساسيات_الحاسوب_ونظام_Windows-(3).docx",
+      "path": "files/teachers/مقرر_أساسيات_الحاسوب_ونظام_Windows-(3).docx",
+      "url": "https://Esamarhb.github.io/docs/files/teachers/%D9%85%D9%82%D8%B1%D8%B1_%D8%A3%D8%B3%D8%A7%D8%B3%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D9%88%D8%A8_%D9%88%D9%86%D8%B8%D8%A7%D9%85_Windows-%283%29.docx",
+      "file_type": "docx",
+      "size_mb": 0.03,
+      "updated_at": "2026-11-15"
     }
   ]
 }
