@@ -1,0 +1,1193 @@
+
+    <!DOCTYPE html>
+    <html dir="rtl" lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            @page { size: A4 portrait; margin: 15mm; }
+            * { box-sizing: border-box; margin: 0; padding: 0; }
+            body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; direction: rtl; background: white; padding: 5mm; }
+            .header { text-align: center; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 3px solid #2c3e50; }
+            .header h1 { font-size: 22px; color: #2c3e50; margin: 0; }
+            .header .subtitle { font-size: 14px; color: #555; margin-top: 3px; }
+            .header .meta { font-size: 10px; color: #999; margin-top: 3px; }
+            .break-info { text-align: center; font-size: 10px; color: #e67e22; margin: 5px 0 15px 0; padding: 5px; background: #fef9e7; border-radius: 6px; border: 1px dashed #f39c12; }
+            .section { margin-bottom: 20px; page-break-inside: avoid; }
+            .section-title { font-size: 14px; font-weight: 600; color: #2c3e50; margin-bottom: 6px; padding: 4px 10px; background: #ecf0f1; border-radius: 6px; }
+            table { width: 100%; border-collapse: collapse; font-size: 10px; margin: 3px 0; }
+            th { background: #2c3e50; color: white; padding: 5px 3px; border: 1px solid #34495e; font-weight: 600; text-align: center; }
+            td { padding: 4px 3px; border: 1px solid #ddd; text-align: center; vertical-align: middle; min-height: 22px; }
+            .day-cell { font-weight: 600; background: #f8f9fa; font-size: 10px; }
+            .subject-cell { padding: 2px 5px; border-radius: 3px; font-weight: 500; display: inline-block; font-size: 9px; }
+            .empty-cell { color: #ccc; font-size: 9px; }
+            .time-cell { font-size: 8px; color: #999; font-weight: normal; }
+            .break-row td { background: #fef9e7 !important; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; }
+            .footer { text-align: center; color: #999; font-size: 9px; margin-top: 15px; padding-top: 8px; border-top: 1px solid #ecf0f1; }
+            @media print { body { padding: 5mm; } }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>📚 مدرسة النموذجية</h1>
+            <div class="subtitle">جدول الحصص الدراسية</div>
+            <div class="subtitle">2025-2026</div>
+            <div class="meta">📅 تاريخ التصدير: ٢‏/٧‏/٢٠٢٦ ٣:١٦:٣٦ م</div>
+        </div>
+        <div class="break-info">
+            ⏰ الحصص 1-3 مدة كل حصة 40 دقيقة | 🕊️ الفسحة 10:00 - 10:30 | ⏰ الحصص 4-6 مدة كل حصة 30 دقيقة
+        </div>
+    
+        <div class="section">
+            <div class="section-title">📚 الصف الرابع</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">اليوم</th>
+                        <th style="width: 15%;">الوقت</th>
+        <th style="width: 37.5%;">شعبة أ</th><th style="width: 37.5%;">شعبة ب</th>
+                    </tr>
+                </thead>
+                <tbody>
+        <tr><td class="day-cell" rowspan="7">الأحد</td><td class="time-cell">8:00 - 8:40</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الاثنين</td><td class="time-cell">8:00 - 8:40</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الثلاثاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الأربعاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الخميس</td><td class="time-cell">8:00 - 8:40</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">📚 الصف الخامس</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">اليوم</th>
+                        <th style="width: 15%;">الوقت</th>
+        <th style="width: 37.5%;">شعبة أ</th><th style="width: 37.5%;">شعبة ب</th>
+                    </tr>
+                </thead>
+                <tbody>
+        <tr><td class="day-cell" rowspan="7">الأحد</td><td class="time-cell">8:00 - 8:40</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الاثنين</td><td class="time-cell">8:00 - 8:40</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الثلاثاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الأربعاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الخميس</td><td class="time-cell">8:00 - 8:40</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">📚 الصف السادس</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 10%;">اليوم</th>
+                        <th style="width: 15%;">الوقت</th>
+        <th style="width: 37.5%;">شعبة أ</th><th style="width: 37.5%;">شعبة ب</th>
+                    </tr>
+                </thead>
+                <tbody>
+        <tr><td class="day-cell" rowspan="7">الأحد</td><td class="time-cell">8:00 - 8:40</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الاثنين</td><td class="time-cell">8:00 - 8:40</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الثلاثاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ااا</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الأربعاء</td><td class="time-cell">8:00 - 8:40</td><td style="background: #9b59b615; border-color: #9b59b640;">
+                            <span class="subject-cell" style="color: #9b59b6; font-weight: 600; font-size: 9px;">
+                                الاجتماعيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">مصطفى علي</span>
+                        </td><td style="background: #f39c1215; border-color: #f39c1240;">
+                            <span class="subject-cell" style="color: #f39c12; font-weight: 600; font-size: 9px;">
+                                العلوم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">سامي حسن</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #1abc9c15; border-color: #1abc9c40;">
+                            <span class="subject-cell" style="color: #1abc9c; font-weight: 600; font-size: 9px;">
+                                اللغة الإنجليزية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">صالح محمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            <tr><td class="day-cell" rowspan="7">الخميس</td><td class="time-cell">8:00 - 8:40</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e67e2215; border-color: #e67e2240;">
+                            <span class="subject-cell" style="color: #e67e22; font-weight: 600; font-size: 9px;">
+                                التربية الإسلامية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد جرادي</span>
+                        </td></tr><tr><td class="time-cell">8:40 - 9:20</td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">9:20 - 10:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #e74c3c15; border-color: #e74c3c40;">
+                            <span class="subject-cell" style="color: #e74c3c; font-weight: 600; font-size: 9px;">
+                                الرياضيات
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">محمد ضيف</span>
+                        </td></tr><tr><td class="time-cell">10:30 - 11:00</td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #2ecc7115; border-color: #2ecc7140;">
+                            <span class="subject-cell" style="color: #2ecc71; font-weight: 600; font-size: 9px;">
+                                القرآن الكريم
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:00 - 11:30</td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td><td style="background: #3498db15; border-color: #3498db40;">
+                            <span class="subject-cell" style="color: #3498db; font-weight: 600; font-size: 9px;">
+                                اللغة العربية
+                            </span>
+                            <br>
+                            <span style="font-size: 7px; color: #666;">ياسر أحمد</span>
+                        </td></tr><tr><td class="time-cell">11:30 - 12:00</td><td class="empty-cell">—</td><td class="empty-cell">—</td></tr>
+                <tr class="break-row">
+                    <td colspan="2" style="text-align: center; background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12;">
+                        🕊️ الفسحة
+                    </td>
+                    <td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td><td style="background: #fef9e7; color: #e67e22; font-weight: 600; font-size: 9px; border: 1px dashed #f39c12; text-align: center;">10:00 - 10:30</td>
+                </tr>
+            
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section" style="page-break-inside: avoid;">
+            <div class="section-title">👨‍🏫 توزيع المعلمين</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>اسم المعلم</th>
+                        <th>المادة</th>
+                        <th>الحصص الموزعة</th>
+                        <th>المطلوب</th>
+                        <th>النسبة</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+            <tr>
+                <td>1</td>
+                <td style="font-weight: 500;">ياسر أحمد</td>
+                <td>القرآن الكريم</td>
+                <td>25</td>
+                <td>20</td>
+                <td style="color: #27ae60; font-weight: 600;">125%</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td style="font-weight: 500;">ياسر أحمد</td>
+                <td>اللغة العربية</td>
+                <td>31</td>
+                <td>20</td>
+                <td style="color: #27ae60; font-weight: 600;">155%</td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td style="font-weight: 500;">محمد ضيف</td>
+                <td>الرياضيات</td>
+                <td>32</td>
+                <td>20</td>
+                <td style="color: #27ae60; font-weight: 600;">160%</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td style="font-weight: 500;">سامي حسن</td>
+                <td>العلوم</td>
+                <td>9</td>
+                <td>20</td>
+                <td style="color: #e74c3c; font-weight: 600;">45%</td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td style="font-weight: 500;">مصطفى علي</td>
+                <td>الاجتماعيات</td>
+                <td>12</td>
+                <td>20</td>
+                <td style="color: #e74c3c; font-weight: 600;">60%</td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td style="font-weight: 500;">صالح محمد</td>
+                <td>اللغة الإنجليزية</td>
+                <td>20</td>
+                <td>20</td>
+                <td style="color: #27ae60; font-weight: 600;">100%</td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td style="font-weight: 500;">محمد جرادي</td>
+                <td>التربية الإسلامية</td>
+                <td>12</td>
+                <td>20</td>
+                <td style="color: #e74c3c; font-weight: 600;">60%</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td style="font-weight: 500;">ااا</td>
+                <td>العلوم</td>
+                <td>9</td>
+                <td>20</td>
+                <td style="color: #e74c3c; font-weight: 600;">45%</td>
+            </tr>
+        
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="footer">
+            تم إنشاء هذا التقرير بواسطة نظام إدارة الجدول المدرسي v3.0
+            <br>
+            عدد الصفوف: 3 | عدد الشعب: 2 | عدد المعلمين: 8
+            <br>
+            ⏰ الحصص 1-3: 40 دقيقة | 🕊️ الفسحة: 10:00-10:30 | ⏰ الحصص 4-6: 30 دقيقة
+        </div>
+    </body>
+    </html>
+    
