@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-15",
+  "categories": [
+    {
+      "id": "students",
+      "name": "مستندات الطلاب"
+    },
+    {
+      "id": "teachers",
+      "name": "مستندات المعلمين"
+    },
+    {
+      "id": "admin",
+      "name": "المستندات الإدارية"
+    },
+    {
+      "id": "ministry",
+      "name": "المستندات الوزارية"
+    },
+    {
+      "id": "certificates",
+      "name": "الشهادات"
+    },
+    {
+      "id": "lists",
+      "name": "الكشوفات"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-0001",
+      "title": "اختبار عربي خامس",
+      "category": "students",
+      "description": "",
+      "file_name": "اختبار-عربي-خامس.docx",
+      "path": "files/students/اختبار-عربي-خامس.docx",
+      "url": "https://Esamarhb.github.io/docs/files/students/%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D8%B1%D8%A8%D9%8A-%D8%AE%D8%A7%D9%85%D8%B3.docx",
+      "file_type": "docx",
+      "size_mb": 0.19,
+      "updated_at": "2026-11-15"
+    }
+  ]
+}
